@@ -11,7 +11,7 @@ const Child = ({name,age,marks,person}) => {
     <div>
       <h1>User</h1>
       <p>Username</p>
-      <p>Name : {person,name}</p>
+      <p>Name : {person.name}</p>
       <p>Department : {person.dept.map((v) => (
          <>
          <b>{v}</b>
